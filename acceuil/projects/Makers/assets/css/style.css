@@ -6,11 +6,13 @@
 }
 
 html{
-    background: #0B1C28;
+    background: #39163F;
+
 }
 
 body{
     background: linear-gradient(211.13deg, #000000 -11.28%, #28132D 31.5%, #39163F 63.14%, #4E2275 90.13%), #000000;
+
 }
 
 a{
