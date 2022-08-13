@@ -10,7 +10,6 @@ window.addEventListener('load', () =>{
   .staggerFrom(logo, 0.5, { opacity: 0, ease: "power2.out"})
   .staggerFrom(titre, 1, {width: 0, opacity: 0, ease: "power2.out"})
   .staggerFrom(btn, 2, {height: 0, opacity: 0,  ease: "power2.out"})
-  // .staggerFrom(, 1, {left: 450,  ease: "power2.out"})
 
   TL.play();
 })
