@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    background: #0B1C28;
+}
+
 body{
     background: linear-gradient(222.86deg, #000000 -3.24%, #0B1C28 32.16%, #113067 68.06%);
     height: 100%;
