@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Megrim&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+/**************************************************************************************** ANCRE **************************************************************************************************/
+header{
+    z-index: 99;
+    position: sticky;
+    top: 0;
+}
+
+.ancres{
+    width: 20%;
+}
+
+.ancres a{
+    font-family: 'Red Hat Text';
+    text-transform: uppercase;    
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.ancres  a:hover{
+    color: #92B46B !important;
+    font-weight: 400 !important;
+}
+
+.ancre{
+    width: 100%;
+}
+
+
+
+/************************************************************************************************** HORIZONTAL ***********************************************************************************/
+
+/* 
+@media screen and (max-width: 1115px){
+    
+    .ancres{
+        width: 30%;
+    }
+
+} */
+
+@media screen and (max-width: 1024px){
+    
+    .ps-5{
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    
+    
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .logo{
+        height: 70%;
+        width: 70%;
+    }
+
+    .logo img{
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width: 570px) {
+    .ancres {
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .ancres {
+        width: 50%;
+    }
+    header{
+        position: relative;
+    }
+}
+
+/****************************************************************************************************** VERTICALE ***********************************************************************/
+@media screen  and (max-height: 670px) {
+}
+    
+
+
+@media screen  and (max-height: 667px) {
+
+    .logs {
+        position: relative;
+        height: 5rem;
+    }    
+}
+
+@media screen and (max-height: 515px){
+
+}
+
+@media screen and (max-height: 425px) {
+    header{
+        position: relative;
+    }
+}
+
+/* puces */
+
+i{
+    color: white;
+}
+
+.puces{
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    z-index: 1;
+}
+
+.fa-xl:hover{
+    font-size: 1.8em;
+    transition: all .25s ease-out;
+}

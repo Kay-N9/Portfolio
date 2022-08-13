@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Megrim&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(222.86deg, #000000 -3.24%, #0B1C28 32.16%, #113067 68.06%);
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+/******************************************************************************************************** MAIN **********************************************************************************/
+
+main p{
+    font-family: 'Red Hat Text';
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+section{
+    height: 76vh;
+    overflow:auto;
+    scroll-behavior: smooth;
+}
+
+section a{
+    width: 100%;
+    position: relative;
+    cursor: auto;
+}
+
+
+.title {
+    position: sticky;
+    top: 0;
+    height: 10rem;
+    margin-bottom: 5%;
+    cursor:pointer;
+
+
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+h1{
+    font-family: 'Red Hat Text';
+    font-weight: 400;
+    font-size: 5.625rem;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+
+
+@media screen  and (max-width: 1228px) {
+    section {
+        height: 73vh;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen  and (max-width: 670px) {
+    section {
+        height: 78vh;
+    }
+}
+
+@media screen  and (max-width: 570px) {
+    section {
+        height: 88vh;
+    }
+}
+
+/****************************************************************************************** VERTICALE *****************************************************************************************/
+
+@media screen  and (max-height: 670px) {
+    section {
+        height: 95vh;
+    }
+
+    .title {
+        display: none;
+    }
+}
+
+@media screen  and (max-height: 667px) {
+
+    section {
+        height: 85vh;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    section {
+        height: 92vh;
+    }
+}
+
+@media screen and (max-height: 375px) {
+    section {
+        height: 74vh;
+    }
+}
+
+.img{
+    height: 55rem;
+    width: 50%;
+}
+
+/************************************************************************************* IMAGE *********************************************************************************************/
+
+#img1{
+    background: url(../img/projet1.png)no-repeat;
+    background-size:cover;
+    background-position: center;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#img2{
+    background: url(../img/projet2.png)no-repeat;
+    background-size:cover;
+    background-position: center;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#img3{
+    background: url(../img/projet3.png)no-repeat;
+    background-size:cover;
+    background-position: center;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.img:hover{
+    width: 55%;
+}
+
+.tite {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 100%;
+    width: 100%;
+
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.tite h1{
+    font-family: 'Megrim';
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.tite:hover{
+    opacity: 0.8;
+}
+
+@media screen  and (max-width: 1228px) {
+    .img {
+        height: 45rem;
+    }
+
+}
+
+@media screen  and (max-width: 1024px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .img {
+        height: 35rem;
+    }
+}
+
+@media screen  and (max-width: 800px) {
+    .title {
+        display: none;
+    }
+
+    .img {
+        height: 35rem;
+        width: 85%;
+    }
+
+    .img:hover{
+        width: 85%;
+    }
+
+}
+
+@media screen  and (max-width: 670px) {
+    .img {
+        height: 20rem;
+        width: 80%;
+    }
+}
+
+
+@media screen  and (max-width: 570px) {
+
+    main a {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    main p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    
+    .tite h1{
+        font-family: 'Megrim';
+        font-size: 3rem;
+        text-transform: capitalize;
+    }
+    
+    .img {
+        height: 15rem;
+        width: 100%;
+    }
+    
+    .img:hover{
+        width: 100%;
+    }
+    
+    .container-fluid{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-left: auto;
+    }
+    
+}
+
+/****************************************************************************************** VERTICALE *****************************************************************************************/
+
+@media screen  and (max-height: 670px) {   
+
+    .img {
+        height: 15rem;
+        width: 95%;
+    }
+    
+    .img:hover {
+        width: 65%;
+    }
+
+    main p{
+        display: none;
+    }
+    
+}
+
+
