@@ -8,7 +8,7 @@
 }
 
 html{
-    background: #0C2249;
+    background: #000000 ;
     height: 100%;
 }
 
@@ -34,6 +34,9 @@ p{
     line-height: 1em !important;
 }
 
+main{
+    height: 85vh;
+}
 
 section{
     height: 75%;
@@ -41,14 +44,33 @@ section{
 
 /***************************************************************************** HORIZONTALE *****************************************************************************************************/
 
+@media screen and (max-width: 1440px) {
+    main{
+        height: 80vh;
+    }
+}
 
+
+@media screen and (max-width: 320px) {
+    main{
+        height: 70vh;
+    }
+}
 
 /************************************************************************************************** VERTICALE **********************************************************************************/
 
-
+@media screen and (max-height: 600px){
+    main {
+        height: 76vh;
+    }
+}
 
 @media screen and (max-height: 515px){
-
+    main {
+        position: absolute;
+        top: 4%;
+        height: 85vh;
+    }
     section {
         height: 94%;
         width: 97%;
@@ -56,14 +78,22 @@ section{
 }
 
 @media screen and (max-height: 425px) {
-
+    main {
+        position: absolute;
+        top: 4%;
+        height: 85vh;
+    }
     section {
         height: 94%;
     }
 }
 
 @media screen and (max-height: 375px) {
-
+    main{
+        position: absolute;
+        top: 2%;
+        height: 96%;
+    }
     section {
         height: 96%;
     }
