@@ -1,71 +1,142 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Kay - Acceuil</title>
-    <link rel="shortcut icon" href="assets/img/logo-kadi-noir.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/header.css">
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <header class="px-5 head">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-                <div class="navbar-brand logs d-flex ">
-                    <a class="logo" href=""><img src="assets/img/logo-mini.png" alt="logo-mini"></a>
-                    <a href="">
-                        <h3 class="text-white align-self-center px-5">home</h3>
-                    </a>
-                </div>
-
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-                <div class=" ancres d-flex  me-5">
-                    <ul class=" ancre navbar-nav justify-content-sm-around ">
-                        <li class="nav-item"><a class="nav-link text-white" href="">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="about/index.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="projects/index.html">Project</a></li>
-                        <li class="nav-item"><a class="nav-link text-white" href="contact/index.html">Contact</a></li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>
+    <header>
+        <ul class="flex ancres w95">
+            <li><a href="#head" class="puce head"><p>Home</p> <img src="assets/img/home.png" alt=""></a></li>
+            <li><a href="#part1" class="puce part1"><p>A propos</p> <img src="assets/img/user (1).png" alt=""></a></li>
+            <li><a href="#part2 " class="puce part2"><p>Skills</p><img src="assets/img/skills.png" alt=""></a></li>
+            <li><a href="#part3" class="puce part3"><p>Projets</p><img src="assets/img/complete.png" alt=""></a></li>
+            <li><a href="#part4" class="puce part4"><p>Contact</p><img src="assets/img/send.png" alt=""></a></li>
+        </ul>
     </header>
+    <section id="head" class="rela mb10 show">
+        <div class="logo rela flex">
+            <img src="assets/img/logo-kadi-blanc.png" alt="" class="">
+            <div class="rond absol"></div>
+        </div>
+        <div id="titre">
+            <h1>Portfolio</h1>
+            <legend>A junior develloper</legend>
+        </div>
+    </section>
+    <!--  -->
+    <section id="part1" class="rela mb10 appear">
+        <h2 class="Tcenter">a propos</h2>
+        <div id="backg"></div>
+        <div class=" propos rela"> 
+            <div class=" pre-article flex center">
+                <div id="profil">
+                    <img src="assets/img/IMG_6245.JPG" alt="photo avenir" class="w100">
+                </div>
+                <h3>Kadidia Niakate</h3>
+            </div>
+            <article id="miniT">
+                <p>
+                    Suite à une réorientation en “Tech”, <br>
+                     Je découvre le développement web chez Simplon et j’en tombe amoureuse. Après un approfondissement chez La Passerelle, mon objectif se trace petit à petit.
+                     <br><br>
+                    Je souhaite plus apprendre, rencontrer du monde, réaliser de nouveaux projets et donner comme recevoir.
+                    <BR></BR> <a href="assets/CV_2024-02-11_Kadidia_Niakate.pdf" target="_blank">Mon CV</a>
+                </p>
+            </article>
+        </div>
+        
+    </section>
+    <!--  -->
+    <section id="part2" class="mb10 appear">
+        <h2 class="Tcenter">Skills</h2>
+        <p></p>
+        <div class="skills">
+            <div class="skill">
+                <h3 class=""> html /css</h3>
+                <div class="progress" role="progressbar" style="width: 100%; height: 0.5rem;">
+                    <div id="m0" class="progress-bar" style="width: 70%"></div>             
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="">js</h3>
+                <div class="progress" role="progressbar" style="width:100%; height: 0.5rem;">
+                    <div id="m0" class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>             
+                </div>
+            </div>
+            <div class="skill">
+                <h3>sql</h3>
+                <div class="progress" role="progressbar" style="width: 100%; height: 0.5rem;">
+                    <div id="m0" class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>             
+                </div>
+            </div>
+            <div class="skill">
+                <h3>design</h3>
+                <div class="progress" role="progressbar" style="width: 100%; height: 0.5rem;">
+                    <div id="m0" class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>             
+                </div>
+            </div>
+            <!-- <div class="skill">
+                <h3>savoir faire</h3>
+                <div class="progress" role="progressbar" style="width: 100%; height: 0.5rem;">
+                    <div id="m0" class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>             
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!--  -->
+    <section id="part3" class="mb10 appear">
+        <h2 class="Tcenter">Projets</h2>
+        <div class="container-fluid">
+            <a id="Box1" class="boxes" href="Beta/index.html">
+                <div class="projet P1">
+                <p>Betatest</p>
+                </div>
+            </a>
+            <a id="Box2" class="boxes" href="Makers/index.html">
 
-    <main class="d-flex flex-column">
-        <section class="d-flex align-items-center justify-content-sm-between cont mx-5">
-            <div class="d-flex flex-column puces">
-                <a class="py-lg-3 py-sm-2 puce" href="https://www.linkedin.com/in/kadidia-niakate-a1a738216" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
-                <a class="py-lg-3 py-sm-2 puce" href="https://github.com/Kay-N9" target="_blank"><i class="fab fa-github fa-xl"></i></a>
-                <a class="py-lg-3 py-sm-2 puce" href="https://www.instagram.com/k.dviews/?hl=fr" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                <a class="py-lg-3 py-sm-2 puce" href="mailto: KadidiaN@hotmail.com" ><i class="fa-solid fa-envelope fa-xl"></i></a>
-            </div>
-            <div class="photo">
-                <img src="assets/img/IMG_8594 2.png" alt="photo-perso">
-            </div>
-            <div class="d-flex flex-column justify-content-end titre">
-                <h2>Yoh !</h2>
-                <h1>KayNn</h1>
-                <h4>A Junior Developer</h4>
-            </div>
-        </section>
-    </main>
-
-    <footer class="rect">
-    </footer>
+                <div class="projet P2">
+                    <p>Meet makers</p>
+                </div>
+            </a>
+            <a id="Box3" class="boxes" href="Univers/index.html">
+                <div class="projet P3">
+                    <p>MMU</p>
+                </div>
+            </a>
+            <div><a href=""></a></div>
+            <div><a href=""></a></div>
+            <div><a href=""></a></div>
+        </div>
+    </section>
+    <!--  -->
+    <section id="part4" class="mb10 appear">
+        <h2 class="Tcenter mb10">Contact</h2>
+        <!-- <p>Je suis dispo ici</p> -->
+        <div class="menu flex center Jcenter">
+            <li class="flex center Jcenter">
+                <a href="https://www.linkedin.com/in/kadidia-niakate-a1a738216/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+            </li>
+            <li class="flex center Jcenter">
+                <a href="https://github.com/Kay-N9" target="_blank"><i class="fab fa-github fa-xl"></i></a>
+            </li>
+            <!-- <div>
+                <a href="https://www.instagram.com/k.dviews/?hl=fr" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i>kay_no_code</a>
+            </div> -->
+            <li class="flex center Jcenter">
+                <a href="mailto: KadidiaN@hotmail.com" target="_blank"><i class="fa-solid fa-envelope fa-xl"></i></a>
+            </li>
+            <!-- <form action=""></form> -->
+        </div>
+    </section>
 
     <script src="https://kit.fontawesome.com/a5456c8b9c.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+    <script src="https://motion.dev/scripts/motion.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
 </html>
