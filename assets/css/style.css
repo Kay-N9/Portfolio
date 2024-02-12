@@ -25,9 +25,11 @@ body{
     background: #341F14;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar,
+::-moz-scrollbar{
     visibility: hidden;
 }
+
 
 section,
 footer {
@@ -803,5 +805,11 @@ h2{
 @media screen and (max-height: 800px){
     #head legend {
         bottom: 30%;
+    }
+
+    section,
+    footer {
+        scroll-snap-align: start;
+        scroll-padding: 0;
     }
 }
