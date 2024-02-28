@@ -34,7 +34,7 @@ body{
 section,
 footer {
     scroll-snap-align: start end;
-    scroll-padding: 10px;
+    scroll-padding: 4rem;
 }
 
 .w100{
