@@ -807,9 +807,9 @@ h2{
         bottom: 30%;
     }
 
-    section,
+    /* section,
     footer {
         scroll-snap-align: start;
         scroll-padding: 0;
-    }
+    } */
 }
